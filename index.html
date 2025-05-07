@@ -1,0 +1,1402 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+            <title>Top Electrical Contractors | PeakPower Electricians | Call Us Now (206) 804-4545</title>
+        <meta name="title" content="Top Electrical Contractors | PeakPower Electricians | Call Us Now (206) 804-4545" />
+        <meta name="robots" content="NOODP, NOYDIR, index, follow" />
+        <link rel="canonical" href="https://tcelectric.pro/" />
+        <meta name="description" content="PeakPower Electricians provides expert electrical services for homes and businesses. From wiring to panel upgrades, trust our licensed electricians for safe, reliable work. Call today for a free quote!" />
+        <meta property="og:title" content="Top Electrical Contractors | PeakPower Electricians | Call Us Now (206) 804-4545" />
+        <meta property="og:description" content="PeakPower Electricians provides expert electrical services for homes and businesses. From wiring to panel upgrades, trust our licensed electricians for safe, reliable work. Call today for a free quote!" />
+        <meta property="og:type" content="article" />
+        <meta property="og:site_name" content="PeakPower Electricians" />
+        
+        <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap" rel="stylesheet">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        
+        
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link href="static/lib/animate/animate.min.css" rel="stylesheet">
+        <link href="static/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="static/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="static/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link rel="stylesheet" href="static/aloomaspecial/alooma.css">
+        <link href="static/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/aloomaspecial/alooma.css"><link rel="stylesheet" href="static/aloomaspecial/alooma2.css"></head>
+
+    <body>
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid sticky-top px-0">
+            <div class="position-absolute bg-dark" style="left: 0; top: 0; width: 100%; height: 100%;">
+            </div>
+            <div class="container px-0">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-white py-3 px-4">
+                    <a href="index.html" class="navbar-brand p-0">
+                        <h1 class="text-primary m-0"><img src="static/img/logo.png" alt="Logo" style="height: 40px; margin-bottom: 5px;">PeakPower Electricians</h1>
+                        
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto py-0">
+                            <a href="/" class="nav-item nav-link active">Home</a>
+                            <a href="#" class="nav-item nav-link">About</a>
+                            <a href="#" class="nav-item nav-link">Services</a>
+                            <a href="#" class="nav-item nav-link">Reviews</a>
+                            <div class="d-flex align-items-center flex-nowrap pt-xl-0" style="margin-left: 15px; font-family: calibri;">
+                                <a href="tel:2068044545" class="btn-hover-bg btn btn-primary text-white py-2 px-6 me-3" style="background-color: red; border: solid white;">Call us: (206) 804-4545</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+    
+        <!-- Modal Search End -->
+
+        <!-- Carousel Start -->
+        <div class="header-carousel owl-carousel">
+            <div class="header-carousel-item">
+                <div class="header-carousel-item-img-1">
+                    <img src="static/img/carousel-1.jpg" class="img-fluid w-100" alt="Image">
+                </div>
+                <div class="carousel-caption">
+                    <div class="carousel-caption-inner text-start p-3">
+                        <h1 class="display-1 text-capitalize text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">The Best Electric Services in USA</h1>
+                        <div class="d-flex align-items-center flex-nowrap pt-xl-0 " style="margin-left: 15px; font-family: calibri;">
+                            <a href="tel:2068044545" class="btn-hover-bg btn btn-primary text-white py-2 px-4 me-3 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.7s;" style="background-color: red; border: solid white;">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <div id="output"></div>
+    <script>
+        
+        function getContents(selectedContents, splitInfo) {
+            let [header, paragraph] = selectedContents.split(splitInfo);
+            header = header.replace(/<br>/g, '');
+            paragraph = paragraph.replace(/<br><br>/g, '<br>');
+
+            let secondPart = '';
+            if (paragraph.includes('<list>')) {
+                let [partParagraph, listParagraph] = paragraph.split('<list>');
+                let listItems = listParagraph.replace(/<br>/g, '').replace(/\n/g, '').split('^^');
+                let appendAllList = listItems.map(item => `<li>${item}</li>`).join('');
+                secondPart = `<ul>${appendAllList}</ul>`;
+                return [header, partParagraph, secondPart];
+            }
+            return [header, paragraph, secondPart];
+        }
+
+        function cleanText(htmlContent) {
+            let result = htmlContent;
+            let regex = /{([^{}()]+)}/g;
+            result = result.replace(regex, (match, p1) => {
+                if (p1.includes('|')) {
+                    let options = p1.split('|');
+                    return options[Math.floor(Math.random() * options.length)];
+                }
+                return p1;
+            });
+            return result.replace(/{|}/g, '');
+        }
+
+        function handleTemplate(option1, option2) {
+            return Math.random() > 0.5 ? option1 : option2;
+        }
+
+        function generateContentsBody(phoneNumber, longForm, shortForm, imageList, data, siteName) {
+            data = data.replace(/&amp;/g, 'and').replace(/\n/g, '<br>').replace(/<br><br><br>/g, '<br>').trim();
+            data = cleanText(data);
+            let allReformattedBody = '';
+            let usedImage = [];
+            let sanitizedPhone = phoneNumber.replace(/\s|\(|\)|-/g, '');
+            let phoneNumberUrl = `tel:${sanitizedPhone}`;
+            let allData = data.split('$$');
+
+            let myNini = 0;
+            allData.forEach(selectedContents => {
+                selectedContents = selectedContents.trim().replace(/\n/g, '');
+                let singleTemplateChecker = '';
+                let replace_long_form= `<div class="col-m-6 col-l-6">
+                                    aloomalongform
+                                </div>`;
+                let replace_short_form= `<div class="col-m-4 col-l-4">
+                                        aloomashortform
+                                    </div>`;
+                
+                if (selectedContents.includes('%%')) {
+                    let multipleChecker = selectedContents.split('%%').length;
+                    
+                    if (selectedContents.includes('<review>')) {
+                        singleTemplateChecker = '<template9>';
+                    }else if (selectedContents.includes('<faq>')) {
+                        singleTemplateChecker = '<template10>';
+                    } else if (multipleChecker === 2) {
+                        singleTemplateChecker = '<template7>';
+                    } else if (multipleChecker === 3) {
+                        singleTemplateChecker = '<template5>';
+                    }
+                } else {
+                    if (selectedContents.includes('<contact>')) {
+                        singleTemplateChecker = '<template8>';
+                    }  else {
+                        if (myNini === 0) {
+                            singleTemplateChecker = handleTemplate('<template1>', '<template4>');
+                        } else if (myNini === 2) {
+                            singleTemplateChecker = handleTemplate('<template2>', '<template3>');
+                        } else {
+                            singleTemplateChecker = '<template6>';
+                        }
+                        myNini++;
+                    }
+                }
+                
+                if (singleTemplateChecker === '<template1>' ||
+                    singleTemplateChecker === '<template2>' ||
+                    singleTemplateChecker === '<template3>' ||
+                    singleTemplateChecker === '<template4>'
+                ) {
+                    let [header, mainParagraph, secondPart] = getContents(selectedContents, '<h2>');
+                    if (singleTemplateChecker === '<template1>'){
+                        let templateData1 = `<!-- Template 1.1 Start -->
+                        <br><br>
+                        <div class="containeralooma">
+                            <section class="boxalooma">
+                            <div class="row">
+                                <div class="col-m-6 col-l-6">
+                                    <h2 class="template1 h2alooma">aloomaidheader</h2>
+                                    <p class="template1 palooma">aloomaidparagraph</p>
+                                    aloomalistdata
+                                    <div class="callalooma"><a href="aloomaidphonenumberurl">Click Here To Call Us aloomaidphonenumberful</a></div>
+                                </div>
+                                <div class="col-m-6 col-l-6">
+                                    aloomalongform
+                                </div>
+
+                            </div>
+                            </section>
+                        </div>
+
+                        <!-- Template 1.1 End -->`;
+                        templateData = templateData1;
+                    }
+                    else if (singleTemplateChecker === '<template2>') {
+                        let templateData2 = `<!-- Template 2 Start -->
+                        <br><br><br><br>
+                        <div class="containeralooma" id="ourservices">
+                            <section class="boxalooma">
+                            <div class="row">
+                                <h2 class="template2 mx-auto">aloomaidheader </h2>
+                                <p class="template2 palooma mx-auto">aloomaidparagraph
+                                </p>
+                                <div class="col-m-8 col-l-8">
+                                    aloomalistdata
+                                    <div class="callalooma"><a href="aloomaidphonenumberurl">Click Here To Call Us aloomaidphonenumberful</a></div>
+                                </div>
+                                <div class="col-m-4 col-l-4">
+                                        aloomashortform
+                                    </div>
+                                
+                            </div>
+                            </section>  
+                        </div>
+
+                        <!-- Template 2 End -->`;
+                        templateData = templateData2;
+                    }
+                    else if (singleTemplateChecker === '<template3>') {
+                        let templateData3 = `<!-- Template 3 Start -->
+                        <br><br><br><br>
+                        <div class="containeralooma">
+                            <section class="boxalooma">
+                                <div class="row">
+                                    <div class="col-m-4 col-l-4">
+                                        aloomashortform
+                                    </div>
+                                    <div class="col-m-8 col-l-8">
+                                        <h2 class="h2alooma template3">aloomaidheader</h2>
+                                        <p class="template3 palooma">aloomaidparagraph
+                                        </p>
+                                aloomalistdata
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                
+                                        <div class="callalooma"><a href="aloomaidphonenumberurl">Click Here To Call Us aloomaidphonenumberful</a></div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+
+
+                        <!-- Template 3 End -->`;
+                        templateData = templateData3;
+                    }
+                    else if (singleTemplateChecker === '<template4>') {
+                        let templateData4 = `<!-- Template 4 Start -->
+                        <br><br><br><br>
+                        <div class="containeralooma">
+                            <section class="boxalooma">
+                                <div class="row">
+                                    <div class="col-m-6 col-l-6">
+                                        <h2 class="template4 h2alooma">aloomaidheader</h2>
+                                        <p class="template4 palooma">aloomaidparagraph
+                                        </p>
+                                        aloomalistdata
+                                        <div class="callalooma mx-auto"><a href="aloomaidphonenumberurl">Click Here To Call Us aloomaidphonenumberful</a></div>
+                                        
+                                    </div>
+                                    <div class="col-m-6 col-l-6">
+                                    aloomalongform
+                                </div>
+                                </div>
+                        
+                                
+                            </section>
+                        </div>
+
+                        <!-- Template 4 End -->`;
+                        templateData = templateData4;
+                    }
+                    if (longForm.length > 3) {
+                        templateData = templateData.replace(/aloomaidheader/g, header)
+                            .replace(/aloomaidparagraph/g, mainParagraph)
+                            .replace(/aloomalistdata/g, secondPart)
+                            .replace(/aloomalongform/g, longForm)
+                            .replace(/aloomashortform/g, shortForm)
+                            .replace(/aloomaidphonenumberful/g, phoneNumber)
+                            .replace(/aloomaidphonenumberurl/g, phoneNumberUrl);
+                    } else {
+                        templateData = templateData.replace(/aloomaidheader/g, header)
+                            .replace(/aloomaidparagraph/g, mainParagraph)
+                            .replace(/aloomalistdata/g, secondPart)
+                            .replace(replace_long_form, '')
+                            .replace(replace_short_form, '')
+                            .replace(/col-m-6 col-l-6/g, '')
+                            .replace(/aloomaidphonenumberful/g, phoneNumber)
+                            .replace(/aloomaidphonenumberurl/g, phoneNumberUrl);
+                    }
+                    allReformattedBody += templateData;
+                }
+                else if (singleTemplateChecker === '<template5>') {
+                    
+                    let templateData = `<!-- Template 5 Start -->
+                        <br><br><br><br>
+                        <div class="containeralooma" id="About">
+                            <section class="boxalooma">
+                            <div class="row">
+                                <div class="col-m-4 col-l-4">
+                                    <h2 class="template4 h2alooma">aloomaidheader</h2>
+                                    <p class="template4 palooma">aloomaidparagraph
+                                    </p>
+                                    aloomalistdata
+                                    <div class="callalooma mx-auto"><a href="aloomaidphonenumberurl">Click Here To Call Us aloomaidphonenumberful</a></div>
+                                </div>
+                                <div class="col-m-4 col-l-4">
+                                    <h2 class="template4 h2alooma">aloomaidheader</h2>
+                                    <p class="template4 palooma">
+                                    aloomaidparagraph
+                                    </p>
+                                    aloomalistdata
+                                    <div class="callalooma mx-auto"><a href="aloomaidphonenumberurl">Click Here To Call Us aloomaidphonenumberful</a></div>
+                                </div>
+                                <div class="col-m-4 col-l-4">
+                                    <h2 class="template4 h2alooma">aloomaidheader</h2>
+                                    <p class="template4 palooma">aloomaidparagraph
+                                    </p>
+                                    aloomalistdata
+                                    <div class="callalooma mx-auto"><a href="aloomaidphonenumberurl">Click Here To Call Us aloomaidphonenumberful</a></div>
+                                </div>
+                            </div>
+                            </section>
+                        </div>
+
+                        <!-- Template 5 End -->`;
+                    let allDataSplit = selectedContents.split('%%');
+                    
+                    allDataSplit.forEach(dataSplit => {
+                        let [header, mainParagraph, secondPart] = getContents(dataSplit, '<h2>');
+                        templateData = templateData
+                            .replace(/aloomaidheader/, header)
+                            .replace(/aloomaidparagraph/, mainParagraph)
+                            .replace(/aloomalistdata/, secondPart)
+                            .replace(/aloomalongform/, longForm)
+                            .replace(/aloomashortform/, shortForm)
+                            .replace(/aloomaidphonenumberful/, phoneNumber)
+                            .replace(/aloomaidphonenumberurl/, phoneNumberUrl);
+                    });
+                    allReformattedBody += templateData;
+                }
+                else if (singleTemplateChecker === '<template6>') {
+                    let [header, mainParagraph, secondPart] = getContents(selectedContents, '<h2>');
+                    let templateData = `<!-- Template 6 Start -->
+                        <br><br><br><br>
+                        <div class="containeralooma">
+                            <section class="boxalooma">
+                                <div class="row">
+                                    <div class="col-m-8 col-l-8">
+                                        <h2 class="template4 h2alooma">aloomaidheader</h2>
+                                        <p class="template4 palooma">aloomaidparagraph</p>
+                                        aloomalistdata
+                                        <div class="callalooma mx-auto"><a href="aloomaidphonenumberurl">Click Here To Call Us aloomaidphonenumberful</a></div>
+                                    </div>
+                                    <div class="col-m-4 col-l-4">
+                                        <img style="width: 100%" class="aloomacssidimage" src="aloomaidpickimage" alt="aloomaidalttitle">
+                                        <br>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+
+                        <!-- Template 6 End -->`;
+                    let counter = 0;
+                    let pickImage;
+                    do {
+                        pickImage = imageList[Math.floor(Math.random() * imageList.length)];
+                        counter++;
+                    } while (usedImage.includes(pickImage) && counter < 20);
+                    usedImage.push(pickImage);
+                    let altText = pickImage.split('.')[0];
+                    
+                    templateData = templateData.replace('aloomaidheader', header)
+                        .replace('aloomaidparagraph', mainParagraph)
+                        .replace('aloomalistdata', secondPart)
+                        .replace('aloomalongform', longForm)
+                        .replace('aloomashortform', shortForm)
+                        .replace('aloomaidphonenumberful', phoneNumber)
+                        .replace('aloomaidphonenumberurl', phoneNumberUrl)
+                        .replace('aloomaidpickimage', pickImage)
+                        .replace('aloomaidalttitle', altText);
+                    allReformattedBody += templateData;
+                }
+                else if (singleTemplateChecker === '<template7>'){
+                    let counter = 0, pickImage, pickImage1;
+                    while (counter < 20) {
+                        counter++;
+                        pickImage = imageList[Math.floor(Math.random() * imageList.length)];
+                        if (!usedImage.includes(pickImage)) break;
+                    }
+
+                    usedImage.push(pickImage);
+
+                    let counter1 = 0;
+                    while (counter1 < 20) {
+                        counter1++;
+                        pickImage1 = imageList[Math.floor(Math.random() * imageList.length)];
+                        if (!usedImage.includes(pickImage1)) break;
+                    }
+
+                    let altText = pickImage.split('.')[0];
+                    let altText1 = pickImage1.split('.')[0];
+
+                    let templateData = `<!-- template 7 -- two subtopic with a list and image-->
+                        <br><br><br><br>
+                        <div class="containeralooma">
+                            <section class="boxalooma">
+                            <div class="row">
+                                <div class="col-m-6 col-l-6">
+                                    <h2 class="template4 h2alooma">aloomaidheader</h2>
+                                    <p class="template4 palooma">aloomaidparagraph
+                                    </p>
+                                    aloomalistdata
+                                    <div class="callalooma mx-auto"><a href="aloomaidphonenumberurl">Click Here To Call Us aloomaidphonenumberful</a></div>
+                                    <br><br>
+                                    <img class="aloomacssidimage" src="aloomaidpickimage" alt="aloomaidalttitle">
+                                </div>
+                                <div class="col-m-6 col-l-6">
+                                    <img class="aloomacssidimage" src="aloomaidpickimage" alt="aloomaidalttitle">
+                                    <br><br>
+                                    <h2 class="template4 h2alooma">aloomaidheader</h2>
+                                    <p class="template4 palooma">aloomaidparagraph</p>
+                                    aloomalistdata
+                                    <div class="callalooma mx-auto"><a href="aloomaidphonenumberurl">Click Here To Call Us aloomaidphonenumberful</a></div>
+                                </div>
+                            </div>
+                            </section>
+                        </div>`;
+
+                    let allDataSplit = selectedContents.split("%%");
+                    
+                    allDataSplit.forEach(data => {
+                        let [ header, mainParagraph, secondPart ] = getContents(data, "<h2>");
+                        
+                        templateData = templateData
+                            .replace("aloomaidheader", header)
+                            .replace("aloomaidparagraph", mainParagraph)
+                            .replace("aloomalistdata", secondPart)
+                            .replace("aloomalongform", longForm)
+                            .replace("aloomashortform", shortForm)
+                            .replace("aloomaidphonenumberful", phoneNumber)
+                            .replace("aloomaidphonenumberurl", phoneNumberUrl)
+                            .replace("aloomaidpickimage", pickImage)
+                            .replace("aloomaidpickimage", pickImage1)
+                            .replace("aloomaidalttitle", altText)
+                            .replace("aloomaidalttitle", altText1);
+                    });
+
+                    allReformattedBody += templateData;
+                    usedImage.push(pickImage1);
+                }
+                else if (singleTemplateChecker === "<template8>") {
+                    // Template 8: Contact template with 1 subtopic
+                    let [ header, mainParagraph, secondPart ] = getContents(selectedContents, "<h2>");
+                    let templateData = `<br><br><br><br>
+                        <div class="containeralooma" id="contact">
+                            <section class="boxalooma">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h2 class="template4 h2alooma">aloomaidheader</h2>
+                                    <p class="template4 palooma">aloomaidparagraph
+                                    </p>
+                                    <div class="callalooma mx-auto"><a href="aloomaidphonenumberurl">Click Here To Call Us aloomaidphonenumberful</a></div>
+                                </div>
+                            </div>
+                            </section>
+                        </div>
+                    `;
+
+                    templateData = templateData
+                        .replace("aloomaidheader", header)
+                        .replace("aloomaidparagraph", mainParagraph)
+                        .replace("aloomalistdata", secondPart)
+                        .replace("aloomalongform", longForm)
+                        .replace("aloomashortform", shortForm)
+                        .replace("aloomaidphonenumberful", phoneNumber)
+                        .replace("aloomaidphonenumberurl", phoneNumberUrl)
+                        .replace("<contact>", "");
+
+                    allReformattedBody += templateData;
+                } 
+                else if (singleTemplateChecker === "<template9>") {
+                    // Template 9: Reviews
+                    let allCommentsData = "";
+                    let allDataSplit = selectedContents.split("%%");
+                    let commentsTemplate= `<br><br><br><br>
+                    <div class="col-m-4">
+                        <i class='fa-solid fa-star' style="color: gold; font-size: 20px;"></i><i class='fa-solid fa-star' style="color: gold; font-size: 20px;"></i><i class='fa-solid fa-star' style="color: gold; font-size: 20px;"></i><i class='fa-solid fa-star' style="color: gold; font-size: 20px;"></i><i class='fa-solid fa-star' style="color: gold; font-size: 20px;"></i>
+                        <p class="template4 palooma">aloomaidcomments</p>
+                        <label for="" style="float: right;">aloomaidcommenname</label>
+                    </div>`;
+                    allDataSplit.forEach(data => {
+                        
+                        let [comments, customerName, secondPart ] = getContents(data, "<h2>");
+                        allCommentsData += commentsTemplate
+                            .replace("aloomaidcomments", comments)
+                            .replace("aloomaidcommenname", customerName);
+                    });
+
+                    let templateData = `<!-- Reviews  -->
+                    <br><br><br><br>
+                    <div class="containeralooma" id="review">
+                        <section class="boxalooma" style="text-align: center;">
+                        <h2 class="heading-with-line template4 h2alooma">Customer Reviews</h2>
+                        <div class="row">
+                            aloomaidallcomments
+                        </div>
+                        </section>
+                    </div>`;
+
+                    templateData = templateData
+                        .replace("aloomaidallcomments", allCommentsData)
+                        .replace("<review>", "");
+
+                    allReformattedBody += templateData;
+                }
+                else if (singleTemplateChecker === "<template10>") {
+                    // Template 9: Faq
+                    let allCommentsData = "";
+                    let allDataSplit = selectedContents.split("%%");
+                    let commentsTemplate= `<h4 class="template4 palooma">aloomaidcomments</h4>
+                    <p>aloomaidcommenname</p>
+                    `;
+                    allDataSplit.forEach(data => {
+                        
+                        let [comments, customerName, secondPart ] = getContents(data, "<h2>");
+                        allCommentsData += commentsTemplate
+                            .replace("aloomaidcomments", comments)
+                            .replace("aloomaidcommenname", customerName);
+                    });
+
+                    let templateData = `<br><br><br><br>
+                    <div class="containeralooma" id="contact">
+                        <section class="boxalooma">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2 class="template4 h2alooma" style="margin-left: 400px;">Frequently Asked Questions in USA</h2>
+                                aloomaidallcomments
+                                
+                            </div>
+                        </div>
+                        </section>
+                    </div>`;
+
+                    templateData = templateData
+                        .replace("aloomaidallcomments", allCommentsData)
+                        .replace("<faq>", "");
+
+                    allReformattedBody += templateData;
+                }
+                
+            });
+            
+
+            document.getElementById("output").innerHTML = allReformattedBody;
+        }
+
+        // Example usage
+        document.addEventListener("DOMContentLoaded", function() {
+            let sampleData = `{PeakPower Electricians in USA|Your Trusted Electricians in USA|Top-Rated Electrical Services by PeakPower in USA|Reliable Electrical Experts in USA}<h2>
+
+
+
+{At PeakPower Electricians|Here at PeakPower Electricians|With PeakPower Electricians by your side|Partner with PeakPower Electricians}, we are {committed to providing|dedicated to delivering|focused on offering|proud to offer} {top-quality|high-caliber|exceptional|professional} electrical services {across the USA|nationwide|throughout the United States|to clients all over the country}. With a team of {certified and experienced electricians|licensed professionals and seasoned experts|skilled and qualified electricians|trained and knowledgeable technicians}, we {prioritize|emphasize|ensure|guarantee} safety, efficiency, and customer satisfaction in {every project we undertake|each job we handle|all our work|every service we provide}. 
+
+
+
+Our {comprehensive range of services|full suite of offerings|broad spectrum of electrical solutions|diverse set of services} caters to {residential, commercial, and industrial clients|homeowners, businesses, and industrial sites|clients in homes, offices, and industrial facilities|a wide range of customer needs}, ensuring that {all your electrical needs are met with professionalism and expertise|you receive expert service regardless of the project size|each client is served with precision and care|we deliver expert-level solutions tailored to your setting}.
+
+
+
+{Electrical work is a critical aspect of modern living and business operations|In today’s homes and workplaces, safe electrical work is non-negotiable|Modern life relies on safe, reliable electrical systems|Proper electrical systems are vital for both comfort and productivity}, and it’s essential to {entrust these tasks to professionals|rely on qualified professionals for these tasks|leave these jobs to licensed experts|avoid DIY and choose certified electricians}. {Faulty electrical installations or improper maintenance|Poor wiring or neglected systems|Unprofessional work or outdated systems|Substandard electrical work} can lead to {severe consequences|major risks|disastrous outcomes|dangerous situations}, including {fires, property damage, and even loss of life|fire hazards, expensive repairs, or serious injury|fire outbreaks, damage to property, and safety issues|potential fires, injuries, or property loss}.
+
+
+
+By choosing {PeakPower Electricians in USA|our team in USA|us for your electrical needs in USA|our local electricians in USA}, you can {rest assured|have confidence|be certain|trust} that your electrical systems are in {capable hands|safe hands|the care of skilled professionals|the hands of experts}, {ensuring the safety and well-being of your family, employees, and property|protecting what matters most—your people and property|guaranteeing peace of mind for your home or business|with results that prioritize safety and reliability}.
+
+$$
+
+
+
+{Residential Electrical Services|Home Electrical Services|Expert Electrical Help for Homes|Safe and Reliable Residential Electrical Work}<h2>
+
+
+
+{At PeakPower Electricians|Here at PeakPower Electricians|With PeakPower Electricians|When you choose PeakPower Electricians}, we {understand the importance of reliable and safe electrical systems in your home|recognize how crucial safe and efficient electrical systems are to your household|know your home needs dependable electrical systems|prioritize reliable and safe electricity in your home}. Our team of {certified electricians|licensed professionals|experienced electricians|qualified electrical experts} is {equipped to handle|trained to deliver|ready to provide|capable of managing} {a wide range of residential electrical services|everything from small fixes to major installations|comprehensive home electrical services|all kinds of electrical work for your home}, ensuring your {peace of mind|safety and satisfaction|home runs smoothly|comfort and protection} and the {efficient operation of your property|smooth running of your household|proper functioning of your electrical systems|performance of your home systems}.
+
+
+
+{One of our core services|A major offering|One key area we specialize in|Among our top services} is {wiring installation and repair|installing and fixing wiring|new wiring and rewiring|wiring services}. From {new construction to remodeling projects|brand new homes to renovation work|fresh builds to upgrades|building projects to makeovers}, we {ensure that your home's wiring is up to code|guarantee code-compliant wiring|deliver safe and reliable electrical layouts|make sure your wiring meets all safety standards} and {meets the highest safety standards|keeps your home safe|is future-ready and secure|is built to last}. 
+
+
+
+We also {specialize in lighting installations|offer expert lighting services|provide indoor and outdoor lighting solutions|help homeowners with all lighting needs}, helping you {create the perfect ambiance and functionality|enhance both look and function|light up every room just right|achieve the atmosphere and practicality you want} in every room of your home. Whether you need {recessed lighting|recessed lights|spotlights|hidden ceiling lights}, {chandeliers|hanging lights|decorative fixtures}, or {energy-efficient LED fixtures|eco-friendly LED lights|modern LED lighting|cost-saving LED options}, our experts will {guide you through the process|walk you through every step|help you choose and install|support you from start to finish}.
+
+
+
+{Another essential service we offer|We also provide|You can also count on us for|We’re your go-to team for} {panel upgrades|electrical panel replacements|breaker box upgrades|modernizing your electrical panel}. {Outdated electrical panels can pose safety risks|Old panels may be unsafe and inefficient|Aging panels aren’t safe for modern devices|Older systems can’t handle today’s power needs}, and may not {meet the demands of modern households|support your energy usage|keep up with your home’s power load|be compatible with new appliances}. Our team will {assess your current panel|inspect your existing system|evaluate your breaker box|check your panel thoroughly} and {recommend the appropriate upgrades|suggest the best upgrade options|propose smart upgrade solutions|advise you on what to do next} to ensure your home's electrical system is {up to date|modern and safe|power-ready|equipped for the future}.
+
+
+
+{Safety is our top priority|We never compromise on safety|Keeping your home safe is our mission|Your safety comes first}, and we provide {comprehensive electrical safety inspections|thorough safety checks|full-home electrical audits|detailed inspections for electrical risks} to {identify and address potential hazards|spot dangers early and fix them|catch problems before they cause harm|pinpoint issues and solve them}. From {faulty outlets and switches|malfunctioning switches and loose outlets|problematic plugs and connections|damaged switches to worn outlets} to {overloaded circuits and exposed wiring|excess load and unsafe wires|circuit overloads and open wiring|too much power draw and unsafe cables}, we'll {thoroughly inspect your home's electrical system|check every part of your home’s electrical setup|examine your electrical components in detail|carefully review your system} and provide {solutions to mitigate risks|fixes to keep you safe|repairs and upgrades to prevent danger|smart, safe corrections}.
+
+%%
+
+{Commercial Electrical Services|Business Electrical Services|Electrical Services for Commercial Spaces|Professional Commercial Electrical Solutions}<h2>
+
+
+
+{PeakPower Electricians offers|At PeakPower Electricians, we provide|We deliver|You can count on PeakPower Electricians for} {comprehensive commercial electrical services|a full range of commercial electrical solutions|expert commercial electrical work|customized electrical services for businesses} {tailored to meet the unique needs of businesses|designed with your company’s needs in mind|suited for all types of commercial properties|crafted to serve offices, stores, and other business spaces}. 
+
+
+
+Our team of {certified professionals|licensed electricians|qualified technicians|experienced commercial electricians} {specializes in electrical system design|is skilled in creating commercial electrical systems|has expertise in electrical layout and design|offers professional system planning}, {ensuring efficient and code-compliant installations|focusing on safe, code-adherent installation work|guaranteeing installations that meet safety regulations|making sure your systems comply with codes and boost productivity}. 
+
+
+
+We {provide reliable maintenance services|offer dependable upkeep and support|deliver regular maintenance checks|handle system maintenance with care} to keep your {electrical systems running smoothly|minimize risks and downtime|business powered and protected|equipment functioning at peak performance}, {minimizing downtime and potential hazards|preventing interruptions and hazards|avoiding system failures and delays|ensuring smooth day-to-day operations}.
+
+
+
+In the event of {an electrical issue|a power failure|unexpected malfunctions|a system emergency}, our {emergency repair services|24/7 electrical emergency solutions|round-the-clock repair support|emergency response team} {are available 24/7|is always on call|is ready any time, day or night|operates day and night}, {ensuring a rapid response to mitigate risks and restore operations promptly|so you can count on quick fixes and business continuity|to quickly handle problems and get you back up and running|providing fast, professional solutions during downtime}.
+
+
+
+Additionally, we {offer system upgrades|handle electrical system enhancements|help upgrade outdated systems|specialize in modernizing your electrical infrastructure} to {enhance energy efficiency|reduce energy waste|boost productivity and reduce power usage|make your system greener and more effective}, {improve functionality|streamline operations|enhance usability|add new features and tools}, and {ensure compliance with the latest safety standards and regulations|keep you in line with current OSHA electrical codes|match current building and safety regulations|adhere to updated electrical codes}, as outlined by {OSHA's electrical guidelines|the Occupational Safety and Health Administration|federal and state safety standards|electrical safety regulations}.
+
+
+
+$$
+
+{Industrial Electrical Services|Heavy-Duty Electrical Services|Electrical Work for Industrial Facilities|Professional Industrial Electrical Solutions}<h2>
+
+
+
+At PeakPower Electricians, we {offer|provide|deliver|specialize in} {comprehensive industrial electrical services|all-encompassing electrical services for industrial clients|full-service industrial electrical support|custom industrial electrical solutions} {tailored to meet the unique demands of manufacturing facilities, warehouses, and other industrial settings|designed specifically for factories, production floors, and industrial environments|built for the complexity of industrial spaces like warehouses and plants|suited for large-scale operations and production-based businesses}. 
+
+
+
+Our team of {highly skilled and certified electricians|licensed and trained industrial professionals|seasoned industrial electricians|experts in high-voltage systems} {is well-versed in handling|knows how to manage|has deep experience with|can confidently work with} {high-voltage installations, control panel setups, and complex industrial electrical systems|advanced machinery, control units, and industrial-grade power systems|industrial wiring, power panels, and heavy-duty control networks|intensive electrical systems used in industrial settings}.
+
+
+
+We {specialize in designing, installing, and maintaining|take pride in building and servicing|are experts at installing, maintaining, and optimizing|manage the full lifecycle of} robust electrical infrastructures that {ensure optimal performance, safety, and compliance|keep your operations running safely and efficiently|prioritize operational integrity and regulatory compliance|are built for durability, safety, and reliability}. Our services include {high-voltage equipment installations|setting up high-capacity equipment|industrial-grade electrical installations|large-scale system setups}, {power distribution system upgrades|updating power supply systems|overhauling your electrical grid|modernizing energy distribution lines}, and the {implementation of advanced control systems|integration of smart industrial controls|deployment of next-gen control panels|installation of automated control networks} for {seamless operations|streamlined workflows|maximum uptime|more efficient processes}.
+
+
+
+We {prioritize worker safety|always put safety first|follow strict safety guidelines|make worker protection a core value} and {adhere to stringent regulations|comply with the most demanding standards|meet all required codes and safety laws|stay updated with all relevant electrical laws} to {minimize risks associated with electrical hazards|reduce exposure to workplace accidents|limit the danger of system failure and accidents|ensure a hazard-free environment}. Our {commitment to electrical safety standards and regulations|strict safety protocols and compliance practices|adherence to best practices in electrical safety|devotion to safe electrical procedures}, such as those outlined by the {National Fire Protection Association (NFPA) 70E|NFPA 70E standards|NFPA safety regulations|Electrical Code NFPA 70E}, {ensures a secure and reliable electrical environment|creates a safe space for operations|supports risk-free industrial activity|helps maintain a safe, code-compliant workspace}.
+
+
+
+Whether you require {new installations|fresh setups|initial wiring work|a full install}, {system upgrades|enhanced performance features|capacity boosts|power system improvements}, or {ongoing maintenance|routine checkups|scheduled servicing|long-term support}, our team of experts is {dedicated to providing tailored solutions|ready to deliver optimized strategies|focused on results that suit your business|equipped to meet your goals} that {optimize efficiency, reduce downtime, and enhance productivity|save time, increase safety, and maximize performance|ensure your operations run without a hitch|give you peace of mind and reliable results}.
+
+
+
+%%
+
+{Lighting Solutions|Lighting Installations|Lighting Services|Indoor and Outdoor Lighting Solutions}<h2>
+
+
+
+At PeakPower Electricians, we {understand the importance of|know how essential|recognize the value of|are experts in delivering} efficient and {well-designed|thoughtfully planned|aesthetically pleasing|high-performing} lighting {solutions|systems|setups|installations} for both {indoor and outdoor spaces|interior and exterior areas|inside and outside your property|residential and commercial properties}. 
+
+
+
+Our team of {certified electricians|licensed lighting experts|qualified professionals|experienced lighting technicians} {specializes in|focuses on|is equipped for|offers expert service in} {installing and upgrading|customizing and improving|modernizing and replacing|implementing and enhancing} lighting systems that not only {enhance the aesthetic appeal of your property|elevate your space visually|improve your home or business appearance|add beauty to your surroundings}, but also {contribute to significant energy savings|help reduce electricity usage|cut down utility costs|improve energy efficiency}.
+
+$$
+
+{Indoor Lighting Installations and Upgrades|Interior Lighting Solutions|Indoor Illumination Services|Lighting for Inside Your Property}<h2> 
+
+We offer a {wide range|broad selection|variety|diverse lineup} of indoor lighting options, including {LED bulbs|energy-efficient LEDs|long-lasting LED lighting}, {recessed lighting|ceiling-embedded fixtures|flush-mount lights}, {track lighting|adjustable directional lighting|multi-fixture tracks}, and {decorative fixtures|stylish accent lights|ornamental lighting}. Our {experts|team|lighting consultants|technicians} can {help you choose|recommend|guide you to} the most {suitable|ideal|effective|appealing} lighting {solutions|choices|systems|fixtures} to {create the desired ambiance|set the mood|enhance your interior environment|match your vision} while {maximizing energy efficiency|saving power|keeping utility costs low|ensuring eco-conscious lighting}.
+
+
+
+**{Outdoor Lighting Installations and Upgrades|Exterior Lighting Services|Landscape and Security Lighting|Lighting for Outdoor Areas}**  
+
+Outdoor lighting is {crucial|vital|essential|important} for {enhancing curb appeal|beautifying exteriors|improving safety|boosting security} and {ensuring safety and visibility|deterring intruders|making paths safer|lighting your landscape}. Our services include {installing and upgrading|replacing and configuring|custom designing and setting up|modernizing} outdoor systems such as {landscape lighting|yard lights|garden illumination}, {security lighting|safety-focused fixtures|protective lighting}, and {motion-sensor lights|movement-activated lighting|smart detection lights}. We use {energy-efficient LED bulbs|low-wattage fixtures|eco-friendly lighting solutions|long-life lamps} that {consume less electricity|save energy|cut energy bills|lower your carbon footprint} while providing {superior illumination|strong lighting|consistent brightness|powerful light output}.
+
+
+
+**{Energy-Efficient Lighting Upgrades|Eco-Friendly Lighting Solutions|Green Lighting Retrofits|Sustainable Lighting Enhancements}**  
+
+We {specialize in upgrading|focus on converting|offer expert solutions for transforming|are skilled in modernizing} existing lighting systems to {energy-efficient alternatives|eco-conscious versions|greener lighting options|cost-saving models}. This helps you {reduce your carbon footprint|lower electricity bills|minimize environmental impact|increase sustainability} and {save money on utility bills|cut monthly costs|spend less on lighting|maximize long-term savings}. Our team can {conduct a comprehensive energy audit|analyze your current system|evaluate lighting efficiency|perform a usage review} and {recommend the most suitable|help you find the best|tailor the right|design a perfect} energy-efficient lighting plan for your {needs|property|space|requirements}.
+
+
+
+%%
+
+{Safety and Security Installations|Home & Business Safety Systems|Electrical Security Solutions|Fire and Intrusion Protection Systems}<h2>
+
+
+
+At PeakPower Electricians, we {prioritize the safety and security|are committed to safeguarding|care deeply about the protection|place great emphasis on the well-being} of your home or business. Our {certified electricians|trained technicians|licensed professionals|skilled experts} {specialize in installing and maintaining|are experts at setting up and servicing|offer complete solutions for} a range of {safety and security systems|protective electrical systems|emergency alert systems|life-saving devices} that {give you peace of mind|keep you safe|secure your property|protect what matters most}.
+
+
+
+**{Smoke Alarm Installation and Maintenance|Smoke Detector Services|Fire Alarm System Setup|Smoke Alert Solutions}**  
+
+One of the most {crucial|vital|important|life-saving} components we provide is {smoke alarm|smoke detector|fire alarm|early fire detection device} installation and maintenance. {Properly installed and maintained|Strategically placed and functional|Up-to-code and routinely tested|Reliable and up-to-date} smoke alarms {play a vital role in|are key to|significantly help in|dramatically reduce} fire {prevention, deaths, and injuries|risk and response time|hazard detection|emergency alerts}. We follow {industry best practices|strict guidelines|safety protocols|NFPA regulations} to ensure your {devices|units|smoke alarms|fire protection systems} are {strategically placed and functioning correctly|reliable, effective, and well maintained|in optimal condition and placement|providing early detection when it matters most}.
+
+
+
+**{Surge Protection Services|Electrical Surge Safety|Whole-Home Surge Protectors|Power Spike Prevention Solutions}**  
+
+In addition to fire safety, we {offer surge protector installations|install devices to block surges|protect your appliances with surge systems|specialize in surge suppression setups} that {safeguard your electrical systems|protect your wiring and electronics|shield your home from spikes|block damaging power surges} and {appliances from power surges and lightning strikes|lightning-related damage or power fluctuations|short circuits and sudden voltage increases|hazards caused by voltage fluctuations}. Our team will {assess your needs|evaluate your system|review your setup|inspect your layout} and {recommend the appropriate|help you select the right|guide you to the best|choose tailored} surge protection {solutions|devices|strategies|equipment} to {prevent costly damage and downtime|preserve your investments|secure your electronics|keep your system safe}.
+
+
+
+**{Security System Installations|Full Security Setup|Surveillance and Alarm Integration|Motion and Camera Systems}**  
+
+We also {provide comprehensive security installations|install cutting-edge security systems|help keep intruders out|offer full property protection}, including {motion sensors|movement detectors|smart motion devices}, {surveillance cameras|CCTV setups|monitoring systems|video security solutions}, and {alarm systems|intrusion detection setups|security alerts|burglar alarm technologies}. Our electricians {work closely with reputable security companies|partner with trusted providers|coordinate with specialists|collaborate with major brands} to {ensure seamless integration and performance|maximize coverage and reliability|deliver top-notch protection|create layered defense systems}.
+
+
+
+**{Fire Prevention and Electrical Inspections|Fire Hazard Checks|Preventive Maintenance Services|Electrical Fire Risk Mitigation}**  
+
+Fire prevention is a {top priority|critical concern|core service|key focus} at PeakPower Electricians. We {conduct thorough inspections|perform detailed assessments|inspect electrical setups|carry out safety audits} to {identify hazards|spot warning signs|uncover risks|find outdated components} and {recommend upgrades or repairs|fix issues before they escalate|resolve potential dangers|implement safety improvements}. Beyond just installations, we {educate our clients|empower you with knowledge|share best practices|provide safety guidance} on {fire prevention techniques|fire safety awareness|routine electrical care|maintaining a risk-free environment} and emphasize the {importance of regular maintenance|value of safety system upkeep|need for ongoing protection|benefits of consistent checks}.
+
+$$
+
+{Energy Efficiency Solutions|Sustainable Power Options|Eco-Friendly Electrical Services}<h2>
+
+
+
+At PeakPower Electricians, {we understand the importance of|we recognize the value in|we’re committed to} {reducing energy costs and minimizing environmental impact|cutting down on power expenses and promoting sustainability|lowering utility bills while supporting green initiatives}. Our {energy efficiency solutions|eco-friendly upgrades|sustainable power strategies} are designed to help you {save money|cut costs|lower your expenses} while {contributing to a greener future|promoting sustainability|supporting environmental goals}.
+
+
+
+One of our key offerings is {solar panel installation|professional solar setup|renewable solar energy solutions}. By {harnessing the power of the sun|utilizing solar energy|installing solar panels}, you can {generate clean, renewable energy|produce sustainable electricity|tap into green energy} for your {home or business|residential or commercial property}, {reducing your reliance on|cutting down dependence on|minimizing your use of} traditional energy sources and {lowering|reducing|decreasing} your monthly utility bills.
+
+
+
+We also offer {comprehensive energy audits|detailed efficiency inspections|thorough energy assessments}. Our {certified energy auditors|licensed professionals|qualified experts} will conduct a {complete assessment|full inspection|detailed evaluation} of your property, {identifying areas of energy waste|spotting inefficiencies|pinpointing where energy is lost} and {providing recommendations for improvements|suggesting enhancements|offering optimization strategies}. By {implementing these changes|following our advice|making these upgrades}, you can {significantly reduce your energy use|cut down on power consumption|greatly improve efficiency} and {lower costs|save money|increase sustainability}
+
+%%.
+
+{Emergency Electrical Services|24/7 Emergency Electrical Support|Urgent Electrical Repairs}<h2>
+
+
+
+When {electrical emergencies strike|power issues arise unexpectedly|you face sudden electrical failures}, {prompt and reliable service is crucial|you need fast and dependable help|getting expert support fast is essential}. At PeakPower Electricians, {we’re ready 24/7|we’re on call day and night|our team is available anytime} to {handle your emergencies|respond to urgent situations|tackle critical issues} with {speed and precision|expertise and urgency|professional care}.
+
+
+
+Our {certified electricians|licensed professionals|experienced technicians} are equipped to {handle a wide range of emergencies|address all kinds of electrical issues|manage various urgent situations}, from {power outages and fires|downed lines and faulty wiring|blackouts to hazardous wiring problems}. We {prioritize your safety|focus on keeping you safe|make safety our #1 concern} and {act quickly|respond fast|work swiftly} to {mitigate potential hazards|resolve dangerous situations|reduce electrical risks}.
+
+
+
+With our {rapid response times|fast turnaround|quick deployment} and {round-the-clock availability|24-hour readiness|constant support}, you can {rest assured help is on the way|count on us any time of day|trust that we’re just a call away}. We {adhere to strict safety protocols|follow industry safety standards|operate with complete safety compliance} using {state-of-the-art tools|modern equipment|the latest technology} to {ensure effective solutions|deliver dependable fixes|provide lasting results}.
+
+$$
+
+{Why Choose Us?|What Sets PeakPower Apart?|Why PeakPower Electricians?}<h2>
+
+
+
+At PeakPower Electricians, we {take pride in|are known for|stand out due to} our {expertise|proven skillset|deep knowledge}, {experience|hands-on background|years in the industry}, and {commitment to customer satisfaction|dedication to quality service|focus on client needs}. Our {certified, highly skilled electricians|trained professionals|qualified team} ensures {every job is done right|top-tier workmanship|projects are executed flawlessly}, no matter the size.
+
+
+
+One of our key {advantages|differentiators|strengths} is our {industry experience|field knowledge|long-standing expertise}. With {years of hands-on work|a robust track record|proven performance}, we can {handle complex challenges|solve the toughest problems|deliver smart solutions}. We {stay up-to-date|keep current|follow the latest trends} with industry standards to {exceed compliance requirements|ensure code adherence|meet all safety regulations}.
+
+
+
+{Customer satisfaction is at our core|We put clients first|Your satisfaction drives us}. From {consultation to completion|start to finish|planning to delivery}, we {maintain clear communication|keep you informed|work transparently} and {strive to exceed expectations|aim for excellence|deliver results you’ll love}.
+
+
+
+What {truly sets us apart|makes us different|gives us an edge} is our {wide service coverage|comprehensive offerings|full-spectrum services}. Whether {residential, commercial, or industrial|home, office, or factory|private or public sector}, we have the {expertise and tools|know-how and equipment|skills and resources} to {tackle any project|complete any task|handle it all}. From {minor repairs|small fixes} to {major installations|large-scale projects}, we {deliver consistently|provide dependable service|get the job done right}.
+
+
+
+We also offer {24/7 emergency services|round-the-clock support|urgent electrical assistance}, {ensuring help is always available|so you're never left in the dark|because emergencies don’t wait}. Our {rapid response team|emergency electricians|on-call crew} is {always ready|on standby|available anytime} to {keep you safe|restore power|address critical issues fast}.
+
+$$
+
+
+
+{Expertise and Experience|Professional Skills and Background}<h2>
+
+
+
+At PeakPower Electricians, {we take pride in our team of|we’re proud to have a team of|our strength lies in our team of} highly {skilled|trained|experienced} and {certified|licensed} electricians. Our professionals {undergo rigorous training and continuous education|are constantly trained and updated|regularly engage in industry-leading training} to {stay current with|keep up with|maintain knowledge of} the latest {industry standards|regulations} and {advancements|technological trends}. With years of {combined|collective} experience, {we’ve sharpened our skills to tackle|our expertise allows us to solve|we handle} even the most {complex|challenging} electrical {problems|issues|tasks}.
+
+
+
+Our electricians {are required to pass|must complete|successfully pass} a {comprehensive|detailed|rigorous} written {exam|examination} covering the {National Electric Code|NEC}. This ensures they {possess|have|bring} the {knowledge|expertise|competence} to {provide|deliver|offer} {safe, code-compliant, and efficient|top-tier, regulation-compliant|professional and compliant} electrical solutions for {residential, commercial, or industrial|all types of} needs.
+
+
+
+Thanks to our {ongoing training and extensive experience|continued learning and vast experience|years of fieldwork and regular training}, you can trust that your electrical {projects|jobs|installations} are in {expert|capable|skilled} hands. We {embrace|utilize|apply} the latest {technologies|methods and tools} to {deliver|provide} solutions that {meet the highest standards|ensure top quality and safety|are modern and reliable}.
+
+%%
+
+{Customer Satisfaction Guaranteed|Satisfaction You Can Count On}<h2>
+
+
+
+At PeakPower Electricians, {customer satisfaction is our top priority|we put our customers first|your satisfaction matters most}. Our {certified|experienced|professional} team {maintains the highest standards|follows industry-leading standards} of professionalism, ensuring {clear communication|transparent processes|smooth service} from start to finish. Whether it’s a {residential|home}, {commercial|business}, or {industrial|facility} project, you can count on us to {deliver|provide} {exceptional service|flawless execution} and {remarkable results|outstanding work} every time.
+
+$$
+
+{Safety and Compliance|Putting Safety First}<h2>
+
+
+
+At PeakPower Electricians, {safety and code compliance|regulatory adherence and safety|safe practices and compliance} are {non-negotiable|core values|top priorities}. We {keep our team informed|stay up-to-date|regularly train our electricians} on the latest safety {regulations|codes} and {protocols|guidelines} from the {Occupational Safety and Health Administration (OSHA)|OSHA} and the {National Fire Protection Association (NFPA)|NFPA}. We {adhere strictly to|follow closely} NFPA 70E {standards|rules} to {ensure|protect} the safety of both our clients and our technicians.
+
+
+
+Our safety-first approach includes {comprehensive training|hands-on education} in {proper PPE use|the use of personal protective equipment}, {emergency procedures|safety drills}, and {safe work habits|jobsite safety techniques}. We also conduct {regular|routine} safety audits and inspections to {uphold|maintain} our {high standards|safety benchmarks}. With us, your project is in {safe|responsible|reliable} hands.
+
+%%
+
+{Comprehensive Service Coverage|All-In-One Electrical Solutions}<h2>
+
+
+
+PeakPower Electricians is your {go-to|one-stop|trusted} solution for electrical projects {of any scale|big or small|no matter the size}, spanning {residential, commercial, and industrial|all service sectors|every type of property}. Whether you need a {simple lighting upgrade|quick fix} or a {complex, large-scale installation|major overhaul}, our team has the {resources|knowledge and tools} to {get the job done right|deliver the results you need}.
+
+
+
+Our services include {residential wiring|commercial panel upgrades|industrial maintenance}, and everything in between. We understand the {unique challenges|specific demands} of each sector, and we {customize our approach|tailor our services} to {fit your needs|meet your goals} precisely. With a {focus on quality and reliability|commitment to high standards}, we ensure every project exceeds expectations.
+
+$$
+
+<review>
+
+
+
+PeakPower Electricians {exceeded my expectations|did an amazing job} with their {residential services|home rewiring}. Their {professionalism|attention to detail} and {commitment to safety|high standards} were clear from day one.<h2> – Danielle M.
+
+%%
+
+When our {office lost power|building had a blackout}, PeakPower Electricians {responded immediately|came through fast}. Their {emergency team|24/7 service} saved us time and money!<h2> – Mathew J.
+
+%%
+
+We chose PeakPower for a {complex industrial project|large-scale industrial upgrade}, and they {nailed it|delivered beyond expectations}. Their {energy-efficient solutions|green technology} made a big difference.<h2> – Jessica P.
+
+%%
+
+The {outdoor lighting|landscape lights} by PeakPower completely {transformed|elevated} our property. Highly recommended!<h2> – David K.
+
+$$
+
+
+
+<contact>{Get in Touch Today|Contact Us Now}<h2>
+
+
+
+At PeakPower Electricians, {we make it easy to connect with us|reaching out is quick and simple}. Whether you’re {requesting a quote|booking a service|facing an emergency}, our team is {ready to help|just a phone call away}.
+
+
+
+Our {customer support|front desk} is {available during business hours|on standby} to {schedule appointments|answer questions}, while our {emergency technicians|rapid response team} are available {24/7|around the clock} to {handle urgent issues|respond to crises}.
+
+
+
+{Call us today|Reach out now} and {let's get started|see how we can help you}. We look forward to providing {safe, efficient, and expert|the best possible} service for your electrical needs.
+
+`;
+            let dataList = sampleData.includes('@@@') 
+                ? sampleData.split('@@@').map(item => item.trim()) 
+                : [sampleData.trim()];
+
+            // Pick one at random
+            let selectedData = dataList[Math.floor(Math.random() * dataList.length)];
+            generateContentsBody(`(206) 804-4545`, ` `, ` `, ['static/images/Adobe Stock.jpeg', 'static/images/Adobe stock2.jpeg', 'static/images/Adobe Stock3.jpeg', 'static/images/Bathroom Hut.jpeg', 'static/images/deposit photos.jpeg', 'static/images/depositphotos2.jpeg', 'static/images/depositphotos3.jpeg', 'static/images/Depositphotos4.jpeg', 'static/images/Dreamstime.com.jpeg', 'static/images/Dteeech Electrician.jpeg', 'static/images/Freepik.jpeg', 'static/images/images2.jpeg', 'static/images/istockphoto-183770082-612x612.jpg', 'static/images/istockphoto-468173049-612x612.jpg', 'static/images/istockphoto-490908526-612x612.jpg', 'static/images/istockphoto-511990814-612x612.jpg', 'static/images/istockphoto-577951680-612x612.jpg', 'static/images/istockphoto-958981314-612x612.jpg', 'static/images/istockphoto-1012526920-612x612.jpg', 'static/images/istockphoto-1139582506-612x612.jpg', 'static/images/istockphoto-1145855506-612x612.jpg', 'static/images/istockphoto-1165561132-612x612.jpg', 'static/images/istockphoto-1182746642-612x612.jpg', 'static/images/istockphoto-1268557129-612x612.jpg', 'static/images/istockphoto-1291724300-612x612.jpg', 'static/images/istockphoto-1314259386-612x612.jpg', 'static/images/istockphoto-1340404454-612x612.jpg', 'static/images/istockphoto-1345670559-612x612.jpg', 'static/images/istockphoto-1345962789-612x612.jpg', 'static/images/istockphoto-1347571063-612x612.jpg', 'static/images/istockphoto-1409304338-612x612.jpg', 'static/images/istockphoto-2151912557-612x612.jpg', 'static/images/OGS-AZ.jpeg', 'static/images/Ortel technology.jpeg', 'static/images/Performance Handymen.jpeg', 'static/images/unsplash.jpeg', 'static/images/unsplash3.jpeg', 'static/images/vecteezy.jpeg', 'static/images/vecteezy2.jpeg', 'static/images/www.securewyoming.com.jpeg', ''], selectedData, `tcelectric.pro`);
+        });
+
+    </script>
+    <br><br><br><br>
+    <div class="containeralooma" style="background-color: transparent; width: 100%;">
+        <section class="boxalooma" style="text-align: center;">
+        <h2 class="heading-with-line template4 h2alooma">States In USA</h2>
+        <div class="row">
+            
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-ny/" id="aloomafotter">New York</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-ca/" id="aloomafotter">California</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-il/" id="aloomafotter">Illinois</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-fl/" id="aloomafotter">Florida</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-tx/" id="aloomafotter">Texas</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-pa/" id="aloomafotter">Pennsylvania</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-ga/" id="aloomafotter">Georgia</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-dc/" id="aloomafotter">District Of Columbia</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-ma/" id="aloomafotter">Massachusetts</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-az/" id="aloomafotter">Arizona</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-mi/" id="aloomafotter">Michigan</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-wa/" id="aloomafotter">Washington</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-mn/" id="aloomafotter">Minnesota</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-co/" id="aloomafotter">Colorado</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-md/" id="aloomafotter">Maryland</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-nv/" id="aloomafotter">Nevada</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-mo/" id="aloomafotter">Missouri</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-or/" id="aloomafotter">Oregon</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-oh/" id="aloomafotter">Ohio</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-in/" id="aloomafotter">Indiana</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-nc/" id="aloomafotter">North Carolina</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-va/" id="aloomafotter">Virginia</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-wi/" id="aloomafotter">Wisconsin</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-ri/" id="aloomafotter">Rhode Island</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-ut/" id="aloomafotter">Utah</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-tn/" id="aloomafotter">Tennessee</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-ky/" id="aloomafotter">Kentucky</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-ok/" id="aloomafotter">Oklahoma</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-ct/" id="aloomafotter">Connecticut</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-la/" id="aloomafotter">Louisiana</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-hi/" id="aloomafotter">Hawaii</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-ne/" id="aloomafotter">Nebraska</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-nm/" id="aloomafotter">New Mexico</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-al/" id="aloomafotter">Alabama</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-sc/" id="aloomafotter">South Carolina</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-ia/" id="aloomafotter">Iowa</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-ks/" id="aloomafotter">Kansas</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-ar/" id="aloomafotter">Arkansas</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-id/" id="aloomafotter">Idaho</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-ms/" id="aloomafotter">Mississippi</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-nj/" id="aloomafotter">New Jersey</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-ak/" id="aloomafotter">Alaska</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-nh/" id="aloomafotter">New Hampshire</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-me/" id="aloomafotter">Maine</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-nd/" id="aloomafotter">North Dakota</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-wv/" id="aloomafotter">West Virginia</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-sd/" id="aloomafotter">South Dakota</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-de/" id="aloomafotter">Delaware</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-mt/" id="aloomafotter">Montana</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-vt/" id="aloomafotter">Vermont</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-wy/" id="aloomafotter">Wyoming</a></div>
+        </div>
+
+        </div>
+        </section>
+    </div>
+
+    <br><br><br><br>
+    <div class="containeralooma" style="background-color: transparent; width: 100%;">
+        <section class="boxalooma" style="text-align: center;">
+        <h2 class="heading-with-line template4 h2alooma">Most popular cities we serve</h2>
+        <div class="row">
+            
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-talty-tx/" id="aloomafotter">Talty</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-belle-mo/" id="aloomafotter">Belle</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-orange-va/" id="aloomafotter">Orange</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-north-highlands-ca/" id="aloomafotter">North Highlands</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-flagler-beach-fl/" id="aloomafotter">Flagler Beach</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-lake-zurich-il/" id="aloomafotter">Lake Zurich</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-johnston-ia/" id="aloomafotter">Johnston</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-centreville-md/" id="aloomafotter">Centreville</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-telford-tn/" id="aloomafotter">Telford</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-concordia-nj/" id="aloomafotter">Concordia</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-meade-ks/" id="aloomafotter">Meade</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-mckinley-pa/" id="aloomafotter">Mckinley</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-debary-fl/" id="aloomafotter">Debary</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-champaign-il/" id="aloomafotter">Champaign</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-ada-oh/" id="aloomafotter">Ada</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-argentine-mi/" id="aloomafotter">Argentine</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-robie-creek-id/" id="aloomafotter">Robie Creek</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-west-sharyland-tx/" id="aloomafotter">West Sharyland</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-williamston-nc/" id="aloomafotter">Williamston</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-triana-al/" id="aloomafotter">Triana</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-frazier-park-ca/" id="aloomafotter">Frazier Park</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-mclean-tx/" id="aloomafotter">Mclean</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-shannon-hills-ar/" id="aloomafotter">Shannon Hills</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-mount-olive-ms/" id="aloomafotter">Mount Olive</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-pottsboro-tx/" id="aloomafotter">Pottsboro</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-golden-grove-sc/" id="aloomafotter">Golden Grove</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-granger-tx/" id="aloomafotter">Granger</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-polkton-nc/" id="aloomafotter">Polkton</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-batavia-ny/" id="aloomafotter">Batavia</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-west-jefferson-oh/" id="aloomafotter">West Jefferson</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-seal-beach-ca/" id="aloomafotter">Seal Beach</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-lawrenceburg-in/" id="aloomafotter">Lawrenceburg</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-ashland-al/" id="aloomafotter">Ashland</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-colleyville-tx/" id="aloomafotter">Colleyville</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-winnsboro-sc/" id="aloomafotter">Winnsboro</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-aceitunas-pr/" id="aloomafotter">Aceitunas</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-thorndale-pa/" id="aloomafotter">Thorndale</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-avon-oh/" id="aloomafotter">Avon</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-walnut-ca/" id="aloomafotter">Walnut</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-la-grange-nc/" id="aloomafotter">La Grange</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-hillside-lake-ny/" id="aloomafotter">Hillside Lake</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-birchwood-lakes-pa/" id="aloomafotter">Birchwood Lakes</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-chester-va/" id="aloomafotter">Chester</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-lincoln-park-ny/" id="aloomafotter">Lincoln Park</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-philadelphia-ms/" id="aloomafotter">Philadelphia</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-gaylord-mn/" id="aloomafotter">Gaylord</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-mokuleia-hi/" id="aloomafotter">Mokuleia</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-frenchtown-nj/" id="aloomafotter">Frenchtown</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-james-island-sc/" id="aloomafotter">James Island</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/electrician-grand-prairie-tx/" id="aloomafotter">Grand Prairie</a></div>
+        </div>
+
+        </div>
+        </section>
+    </div>
+        
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-m-6 col-l-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Our Service</h4>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Home</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Services</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> About Us</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Reviews</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+        <div class="scroll-arrow" id="scrollArrow">&#8675;</div> <!-- Upward pointing arrow -->
+            <div class="callalooma mx-auto scroll-button" id="scrollButton" style="font-family: calibri;"><a href="tel:2068044545">Click Here To Call Us (206) 804-4545 </a></div>
+            
+            <script>
+                window.addEventListener('scroll', function() {
+                    var button = document.getElementById('scrollButton');
+                    var arrow = document.getElementById('scrollArrow');
+                    if (window.scrollY > 500) {
+                        button.style.display = 'block';
+                        arrow.style.display = 'block';
+                    } else {
+                        button.style.display = 'none';
+                        arrow.style.display = 'none';
+                    }
+                });
+                // const data = {
+                //    "Maimi": "#mpcstate",
+                //    "Florida": "#mpccites",
+                //    "Arizona": "#mpccounty",
+                //    "Alaska": "#mpcstate",
+                //    "Utah": "#mpccites",
+                //    "Ohio": "#mpccounty",
+                //    "Arkansas": "#mpcstate",
+                //    "Cit": "#mpccites",
+                //    "Coun": "#mpccounty"
+                // };
+
+                // const searchBar = document.getElementById('searchBar');
+                // const resultsContainer = document.getElementById('results');
+
+                // searchBar.addEventListener('input', function() {
+                //    const query = searchBar.value.toLowerCase();
+                //    resultsContainer.innerHTML = '';
+
+                //    if (query) {
+                //          resultsContainer.style.display = 'flex'; // Show results container
+                //          for (const [key, value] of Object.entries(data)) {
+                //             if (key.toLowerCase().includes(query)) {
+                //                const resultItem = document.createElement('div');
+                //                resultItem.className = 'result-item';
+                //                resultItem.innerHTML = `<a href="${value}">${key}</a>`;
+                //                resultsContainer.appendChild(resultItem);
+                //             }
+                //          }
+                //    } else {
+                //          resultsContainer.style.display = 'none'; // Hide results container
+                //    }
+                // });
+            </script>
+
+        
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="static/lib/wow/wow.min.js"></script>
+    <script src="static/lib/easing/easing.min.js"></script>
+    <script src="static/lib/waypoints/waypoints.min.js"></script>
+    <script src="static/lib/counterup/counterup.min.js"></script>
+    <script src="static/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="static/lib/lightbox/js/lightbox.min.js"></script>
+    
+
+    <!-- Template Javascript -->
+    <script src="static/js/main.js"></script>
+    <script src="https://kit.fontawesome.com/c4c9a6665b.js" crossorigin="anonymous"></script></body>
+
+</html>
